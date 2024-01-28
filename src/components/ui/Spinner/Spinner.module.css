@@ -1,0 +1,39 @@
+:root {
+   --spinner-primary: var(--grey);
+   --spinner-secondary: #ffcad4;
+   --delay: 0.3s
+}
+
+.wrapper {
+   display: flex; gap: 4px;
+   justify-content: center;
+}
+
+.dot {
+   /* width: 15px; */
+   /* height: 5px; */
+   width: 10px; aspect-ratio: 1;
+   border-radius: 50%;
+   background: var(--spinner-primary);
+   animation: dota 1.6s ease-in-out infinite;
+}
+.dot:nth-child(1) {
+   animation-delay: var(--delay);
+}
+.dot:nth-child(2) {
+   animation-delay: calc(var(--delay)*2);
+}
+.dot:nth-child(3) {
+   animation-delay: calc(var(--delay)*2.5);
+}
+@keyframes dota {
+   0% {
+     background: var(--spinner-primary);
+   }
+   50% {
+     background: var(--spinner-secondary);
+   }
+   100% {
+     background: var(--spinner-primary);
+   }
+}

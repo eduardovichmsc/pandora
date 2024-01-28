@@ -1,0 +1,21 @@
+.breadcrumbs {
+   display: flex;
+   width: fit-content;
+   margin-bottom: 1em;
+}
+.breadcrumbs-item {
+   color: var(--grey);
+   margin-right: 0.3em;
+}
+.breadcrumbs-item:not(.breadcrumbs-item:first-child):before {
+   content: "/";
+   margin-right: 0.25em;
+}
+.breadcrumbs-last::before {
+   content: "/";
+   margin-right: 0.25em;
+}
+
+.breadcrumbs-item, .breadcrumbs-last {
+   font-size: 1.05em;
+}

@@ -1,0 +1,74 @@
+* {
+   outline: none;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Futura';
+   font-size: 14px;
+   font-weight: 500;
+   line-height: 1.4;
+   scroll-behavior: smooth;
+}
+
+input, input::placeholder {
+   font-family: 'Futura';
+   font-size: 14px;
+   font-weight: 500;
+   line-height: 1.4;
+}
+
+
+
+
+.container {
+   max-width: 1500px;
+   padding: 0 30px;
+   margin: 0 auto;
+   margin-top: inherit;
+   margin-bottom: inherit;
+}
+
+
+:root {
+   --white: #fff;
+   --light-grey: #c4c4c4;
+   --dark-grey: #3a3a3a;
+   --grey: #636569;
+   --black: #27251f;
+   --brown: #34332b;
+   --light-pink: #ffcad466;
+   --blue: #1b52eb;
+}
+
+.darzhan {
+   float: right;
+   padding-left: 1em; padding-right: 0.2em;
+}
+.darzhan:hover {
+   background: var(--light-grey);
+   color: var(--brown);
+}
+
+#root {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 100%;
+}
+
+
+.page-loading {
+}
+
+
+.section {
+   width: 100%;
+   margin: 70px auto;
+   position: relative;
+}
+
+#spinner {
+}

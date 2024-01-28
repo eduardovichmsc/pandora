@@ -1,0 +1,37 @@
+/* -- futura -- */
+@font-face {
+   font-family: 'Futura';
+   src: url('./fonts/FuturaPT-ExtraBold.ttf');
+   font-style: normal;
+   font-weight: 800;
+}
+@font-face {
+   font-family: 'Futura';
+   src: url('./fonts/FuturaPT-Bold.ttf');
+   font-style: normal;
+   font-weight: 700;
+}
+@font-face {
+   font-family: 'Futura';
+   src: url('./fonts//FuturaPT-Demi.ttf');
+   font-style: normal;
+   font-weight: 600;
+}
+@font-face {
+   font-family: 'Futura';
+   src: url('./fonts/FuturaPT-Medium.ttf');
+   font-style: normal;
+   font-weight: 500;
+}
+@font-face {
+   font-family: 'Futura';
+   src: url('./fonts/FuturaPT-Book.ttf');
+   font-style: normal;
+   font-weight: 400;
+}
+@font-face {
+   font-family: 'Futura';
+   src: url('./fonts/FuturaPT-Light.ttf');
+   font-style: normal;
+   font-weight: 300;
+}

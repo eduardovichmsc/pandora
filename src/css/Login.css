@@ -1,0 +1,39 @@
+.login-wrapper {
+   max-width: max-content;
+   margin: 0 auto;
+}
+.login-warning {
+   background: var(--light-pink);
+   border: none;
+   padding: 1em;
+   font-size: 1.1em;
+}
+.login-form {
+   width: 400px;
+   gap: 0.3em;
+   margin-top: 0.5em;
+}
+.login-input {
+   font-size: 1.1em;
+   padding: 0.8em 1em;
+   width: 100%;
+   border-bottom: 1px solid var(--brown);
+   margin-bottom: 0.5em;
+}
+.login-submit {
+   background: var(--brown);
+   color: var(--white);
+}
+.login-google {
+   border: 1px solid var(--grey);
+   gap: 0.4em;
+}
+.login-google:hover {
+   background: var(--light-pink);
+   border-color: var(--dark-grey);
+}
+.login-google-logo {
+   height: 20px;
+   float: right;
+   margin-top: 0.1em;
+}

@@ -1,0 +1,79 @@
+.cart__left {
+   width: 15%;
+}
+.cart__left-btn {
+   /* background: #000; */
+   padding: 0.5em 0;
+   gap: 0.2em;
+   cursor: pointer;
+   color: var(--black);
+}
+.cart__left-btn p {
+   line-height: 0px;
+   margin-top: 2px;
+   font-size: 1.2em;
+}
+.section__title {
+   font-size: 1.9em;
+   font-weight: 400;
+}
+
+.cart-wrapper {
+   margin-left: auto;
+   width: 100%;
+}
+.cart-item {
+   width: 85%;
+   margin-left: auto;
+   gap: 2em;
+   padding-bottom: 2em;
+   margin-bottom: 2em;
+   border-bottom: 1px solid var(--light-grey);
+}
+.cart-item__image-wrapper {
+   width: 350px; aspect-ratio: 1;
+   border: 1px solid var(--light-grey);
+}
+.cart-item__image {
+   width: 100%; height: 100%;
+   object-fit: contain;
+}
+.cart-item__info {
+   padding: 3.5em 0;
+}
+.cart-item__article {
+   margin-bottom: 0.1em;
+   display: block;
+   font-weight: 400;
+}
+.cart-item__title {
+   display: block;
+   font-size: 1.75em;
+   text-transform: uppercase;
+   margin-bottom: 1em;
+}
+.cart-item__material, .cart-item__size, .cart-item__vstavka {
+   color: var(--dark-grey);
+   font-size: 1.1em;
+   font-weight: 400;
+   text-transform: uppercase;
+}
+.cart-item__deletebtn {
+   margin-top: 2em;
+   border: 1px solid var(--grey);
+   padding: 0.5em 3em;
+   font-size: 1.1em;
+}
+.cart-item__deletebtn:hover {
+   border-color: var(--dark-grey);
+   background: var(--light-pink);
+}
+
+.cart-panel__btn {
+   padding: 1em 3em;
+   background: var(--light-pink);
+   border: 1px solid transparent;
+}
+.cart-panel__btn:hover {
+   border-color: var(--light-grey);
+}
