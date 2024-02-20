@@ -15,6 +15,7 @@
     "server": "json-server -w server/db.json -p 5931"
   },
   "dependencies": {
+    "antd": "^5.14.1",
     "axios": "^1.6.7",
     "json-server": "^1.0.0-alpha.22",
     "react": "^18.2.0",
